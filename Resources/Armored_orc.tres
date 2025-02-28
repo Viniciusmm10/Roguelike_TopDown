@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://csufxcq762eqg"]
+
+[ext_resource type="Script" path="res://Resources/EnemyType.gd" id="1_xdr27"]
+[ext_resource type="Texture2D" uid="uid://u5fonj7ey6o" path="res://Assets/Enemies/Armored_Orc/Armored Orc with shadows/Armored Orc-unit.png" id="2_sryoy"]
+
+[resource]
+script = ExtResource("1_xdr27")
+title = "Armored_orc"
+texture = ExtResource("2_sryoy")
+health = 0.0
+damage = 30.0

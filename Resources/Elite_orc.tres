@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://f7hnelqfj6r4"]
+
+[ext_resource type="Script" path="res://Resources/EnemyType.gd" id="1_io7vb"]
+[ext_resource type="Texture2D" uid="uid://cri0k65f2eayj" path="res://Assets/Enemies/Elite_Orc/Elite Orc with shadows/Elite Orc-unit.png" id="2_vktyy"]
+
+[resource]
+script = ExtResource("1_io7vb")
+title = "Elite_orc"
+texture = ExtResource("2_vktyy")
+health = 0.0
+damage = 20.0
