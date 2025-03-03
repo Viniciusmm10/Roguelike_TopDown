@@ -19,6 +19,7 @@ offset_left = 464.0
 offset_top = 11.0
 offset_right = 506.0
 offset_bottom = 51.0
+scale = Vector2(2, 2)
 
 [node name="Minute" type="Label" parent="UI/HBoxContainer"]
 unique_name_in_owner = true

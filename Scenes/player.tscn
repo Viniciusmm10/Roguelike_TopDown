@@ -39,6 +39,7 @@ show_percentage = false
 autostart = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.3, 2.3)
 
 [connection signal="body_entered" from="SelfDamage" to="." method="_on_self_damage_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="RPG-TOP-DOWN"
+run/main_scene="res://Scenes/test_scene.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=360
+window/size/viewport_width=1080
+window/size/viewport_height=1920
 window/size/window_width_override=1080
 window/size/window_height_override=1920
 window/stretch/mode="canvas_items"
